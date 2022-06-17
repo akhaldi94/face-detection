@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "face-detection"
+version = "0.1.0"
+description = ""
+authors = ["Ahmed Khaldi <khaldi.ahmed@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+image = "^1.5.33"
+utils = "^1.0.1"
+numpy = "^1.22.4"
+opencv-python = "^4.6.0"
+mediapipe = "^0.8.10"
+protobuf = "3.20.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
